@@ -1,0 +1,65 @@
+
+.box 
+{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 1em 0;
+}
+
+/* "margin:auto" = Centraliza o elemento no right / left caso houver width */
+.box-center
+{
+    width: 60%;
+    margin: auto;
+}
+
+/* "text-align: center" = Centraliza o texto do conteudo */
+.text-center
+{
+    text-align: center;
+}
+
+/* Centraliza a imagem se houver "display: block" e "width" informados */
+.image-center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* "position:absolute" = Permite definir posicao 
+   "right: 0" = Posiciona o elemento a direita */
+.box-position-right
+{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    border: 3px solid rgb(53, 53, 194);
+    padding: 10px;
+    margin: 1em;
+}
+
+/* "float: left" = Permite posicionar o elemento a esquerda */
+.box-float-left
+{
+    float: left;
+    width: 300px;
+    border: 3px solid rgb(131, 22, 22);
+    padding: 10px;
+    margin: 1em;
+}
+
+/* Forma de colocar uma imagem e texto sem quebrar o elemento (div) juntos */
+.box-with-image { margin: 1em; overflow: auto; }
+.image-reduce { float: right; width: 20%; height: 20%; }
+
+/* Posicionando conteudo verticalmente: "padding: valor 0" */
+.vertical-align { padding: 40px 0; }
+
+/* Posicionando elemento em ambas direcoes: "padding" + "text-align" */
+.align-all
+{
+    padding: 40px 0;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+
+.box 
+{
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: powderblue;
+}
+
+/* "width" = Define largura do elemento */
+#boxWidthHundred { width: 100%; }
+
+/* "height" = Define altura do elemento */
+#boxWidthHeight { width: 600px; height: 200px; }
+
+/* "max-width" = Define valor maximo da largura do elemento */
+#boxMaxWidth { max-width: 600px; height: 200px; }
+
+/* "width" = Define tamanho do elemento */
+#boxOutHeight
+{
+    display: inline-block;
+    max-width: 100px;
+    height: 100px;
+}
+
+/* "max-height" = Define valor maximo da altura do elemento 
+ * "overflow" = Define barras de scroll de acordo com max-width / max-height */
+#boxMaxHeight
+{
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: auto;
+}

@@ -1,0 +1,89 @@
+
+/* USANDO IMAGE SPRITE */
+
+/* EXEMPLO IMAGENS SEPARADAS */
+
+/* truques = "width", "height", "background" com posicoes */
+img#home
+{
+    width: 46px;
+    height: 44px;
+    background: url("../images/img_navsprites.gif") 0 0;
+}
+
+img#left-arrow
+{
+    width: 43px;
+    height: 44px;
+    background: url("../images/img_navsprites.gif") -47px 0;
+}
+
+img#right-arrow
+{
+    width: 43px;
+    height: 44px;
+    background: url("../images/img_navsprites.gif") 43px 0;
+}
+
+
+#navlist
+{
+    position: relative;
+}
+
+
+/* EXEMPLO LISTA COM IMAGENS */
+
+/* truques = "position", "top", "height*, "width", "background" com posicoes */
+#navlist li
+{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navlist li, #navlist a
+{
+    display: block;
+    height: 44px;
+}
+
+li#home
+{
+    left: 0;
+    width: 46px;
+    background: url("../images/img_navsprites.gif") 0 0;
+}
+
+li#prev
+{
+    left: 63px;
+    width: 43px;
+    background: url("../images/img_navsprites.gif") -47px 0;
+}
+
+li#next
+{
+    left: 129px;
+    width: 43px;
+    background: url("../images/img_navsprites.gif") 43px 0;
+}
+
+li#home:hover 
+{
+    background: url("../images/img_navsprites_hover.gif") 0 44px;
+}
+
+
+li#prev:hover 
+{
+    background: url("../images/img_navsprites_hover.gif") -47px 44px;
+}
+
+
+li#next:hover 
+{
+    background: url("../images/img_navsprites_hover.gif") 43px 44px;
+}

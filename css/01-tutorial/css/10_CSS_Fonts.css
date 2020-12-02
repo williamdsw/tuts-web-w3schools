@@ -1,0 +1,34 @@
+
+.box 
+{ 
+    padding: 1em; 
+    margin: 5px; 
+    background-color: #ebebeb;
+    box-sizing: border-box;
+}
+
+/* "font-family" = Define familia de fontes do texto */
+#boxTimesNewRoman { font-family: 'Times New Roman', Times, serif; }
+#boxArial { font-family: Arial, Helvetica, sans-serif; }
+#boxCourierNew { font-family: 'Courier New', Courier, monospace; }
+#boxSegoeUI { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+/* "font-style" = Define estilo da fonte do texto */
+#boxNormal { font-style: normal; }
+#boxItalic { font-style: italic; }
+#boxOblique { font-style: oblique; }
+
+/* "font-size" = Define tamanho da fonte do texto */
+#boxFontSizePX { font-size: 18px; }
+#boxFontSizeEM { font-size: 1.5em; }
+#boxFontSizePercent { font-size: 80%; }
+#boxFontSizeVW { font-size: 5vw; }
+
+/* "font-weight" = Define "largura" da fonte do texto */
+#boxFontWeightNormal { font-weight: normal; }
+#boxFontWeightBold { font-weight: bold; }
+#boxFontWeightLighter { font-weight: lighter; }
+
+/* "font-variant" = Define variacao da fonte (normal, capslock, etc) */
+#boxFontVariantNormal { font-variant: normal; }
+#boxFontVariantSmallCaps { font-variant: small-caps; }

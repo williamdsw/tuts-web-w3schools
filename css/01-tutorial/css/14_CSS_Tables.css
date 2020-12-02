@@ -1,0 +1,52 @@
+
+.box  
+{ 
+    display: inline-block;
+    margin: 1em; 
+    padding: 1em; 
+}
+
+/* "table, th, td" = tags da tabela */
+.first-table, .first-table th, .first-table td { border: 1px solid black; }
+
+/* "border-collapse" = Remove as bordas da tabela */
+.second-table { border-collapse: collapse; }
+.second-table, .second-table th, .second-table td { border: 2px solid black; }
+
+/* Propriedades da terceira tabela */
+.third-table { text-align: left; border: 1px solid black; }
+.third-table td { width: 100px; }
+
+/* Propriedades da quarta tabela */
+.fourth-table { text-align: center; }
+.fourth-table, .fourth-table th, .fourth-table td { border: 1px solid grey; }
+.fourth-table th, .fourth-table td { padding: 15px; }
+
+/* Propriedades da quinta tabela */
+.fifth-table { text-align: left; border-collapse: collapse; }
+.fifth-table th, .fifth-table td 
+{
+    width: 200px;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.fifth-table tr:hover { background-color: #f5f5f5; }
+
+/* "nth-child()" = A cada "crianca" (filho) da tag */
+.sixth-table { text-align: left; }
+.sixth-table th, .sixth-table td { width: 200px; height: 40px; }
+.sixth-table th { background-color: red; color: white; }
+.sixth-table tr:nth-child(even) { background-color: black; color: white; }
+
+/* Propriedades da setima tabela */
+.seventh-table
+{
+    border-collapse: collapse;
+    text-align: center;
+    color:white;
+}
+
+.seventh-table th, .seventh-table td { width: 200px; height: 40px; }
+.seventh-table th { background-color: #0429ad; }
+.seventh-table tr:nth-child(even) { background-color: #131c3c; }
+.seventh-table tr:nth-child(odd) { background-color: #5d7cf3; }

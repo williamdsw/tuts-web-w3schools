@@ -1,0 +1,31 @@
+
+.box  { margin: 1em; padding: 1em; }
+
+/* "a" = tag para links */
+a { cursor: pointer; }
+
+/* ":link" = Quando o link nao foi acessado */
+a:link { color: purple; text-decoration: none; }
+
+/* ":visited" = Quando o link ja foi acessado */
+a:visited { color:salmon; text-decoration: none; }
+
+/* ":hover" = Quando o mouse esta por cima do link */
+a:hover { color:red; text-decoration: underline; }
+
+/* ":active" = Quando o link esta sendo clicado (hold) */
+a:active { color:green; text-decoration: underline; }
+
+/* Exemplo de "botao link" */
+.btn-link
+{
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-link:hover, .btn-link:active { background-color: darkslateblue; }

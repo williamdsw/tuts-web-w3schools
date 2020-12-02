@@ -1,0 +1,30 @@
+
+.box { padding: 1em; margin: 1em; border: 5px solid red; }
+
+/* "outline-style" = Define estilo do espacamento fora da borda */
+.dotted { outline-style: dotted; }
+.dashed { outline-style: dashed; }
+.solid { outline-style: solid; }
+.double { outline-style: double; }
+.groove { outline-style: groove; outline-color: powderblue; }
+.ridge { outline-style: ridge; outline-color: powderblue; }
+.inset { outline-style: inset; outline-color: powderblue; }
+.outset { outline-style: outset; outline-color: powderblue; }
+.none  { outline-style: none; }
+.hidden { outline-style: hidden; }
+
+/* "outline-style" = Define estilo do espacamento fora da borda
+ * "outline-color" = Define cor do espacamento fora da borda
+ * "outline-width" = Define tamanho do espacamento fora da borda */
+#boxOutlineWidth
+{
+    outline-style: solid;
+    outline-color: greenyellow;
+    outline-width: thick;
+}
+
+/* "outline" = Define propriedades do espacamento fora da borda */
+#boxOutline { outline: 2px solid olivedrab; }
+
+/* "outline-offset" = Define valor da distancia entre a borda e o espacamento */
+#boxOutlineOffset { outline: 5px solid slateblue; outline-offset: 5px; }

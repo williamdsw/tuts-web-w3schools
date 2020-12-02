@@ -1,0 +1,30 @@
+
+.box { padding: 5px; border: 2px solid darkslategray; }
+
+/* "margin" = Define tamanho para margem dos quatro lados */
+#boxMargin { margin: 70px; }
+
+/* "margin-top" = Define tamanho para margem superior */
+#boxMarginTop { margin-top: 5em; }
+
+/* "margin-right" = Define tamanho para margem direita */
+#boxMarginRight { margin-right: 30%; }
+
+/* "margin-bottom" = Define tamanho para margem inferior */
+#boxMarginBottom { margin-bottom: 5px; }
+
+/* "margin-left" = Define tamanho para margem esquerda */
+#boxMarginLeft { margin-left: 10px; }
+
+/* "margin" = Define tamanho para margin dos quatro lados */
+#boxMarginAll { margin: 5px 10px 15px 20px; }
+
+/* "margin: auto" = Define tamanho automatico para margem esquerda / direita */
+#boxMarginAuto { width: fit-content; margin: auto; }
+
+/* "margin: inherit" = Define margem herdada do elemento pai */
+#boxMarginInherit {margin: 10px; }
+p.son {margin: inherit; }
+
+/* Define margem colpsada */
+#boxMarginCollapse {margin: 10px 0 0 0; }

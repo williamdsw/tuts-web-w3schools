@@ -1,0 +1,28 @@
+
+ul
+{
+    background-color: #ccc;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li:hover
+{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+li:active
+{
+    background-color: rgb(19, 19, 19);
+}

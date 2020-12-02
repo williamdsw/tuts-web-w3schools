@@ -1,0 +1,19 @@
+
+.box
+{
+    width: 60em;
+    height: 15em;
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+img
+{
+    width: 30%;
+    height: 100%;
+}
+
+/* "float" = Define posicao do elemento (esquerda / direita) */
+.lefty img { float: left; }
+.righty img { float: right; }

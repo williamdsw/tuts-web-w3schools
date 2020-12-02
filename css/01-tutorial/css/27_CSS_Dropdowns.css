@@ -1,0 +1,77 @@
+
+/* EXEMPLO DE DROPDOWN SIMPLES */
+.dropdown-text
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-text-content
+{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown-text:hover .dropdown-text-content
+{
+    display: block;
+}
+
+
+/* EXEMPLO DE DROPDOWN MENU */
+
+.dropbutton
+{
+    background-color: rgb(61, 59, 145);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-button
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button-content
+{
+    display: none;
+    position: absolute;
+    background-color: rgb(59, 59, 59);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    min-width: 150px;
+    text-align: center;
+}
+
+.dropdown-button-content a
+{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-button-content a:hover
+{
+    background-color: rgb(85, 85, 85);
+}
+
+.dropdown-button:hover .dropdown-button-content
+{
+    display: block;
+}
+
+.dropdown-button:hover .dropbutton
+{
+    background-color: rgb(31, 30, 83);
+}

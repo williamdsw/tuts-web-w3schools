@@ -1,0 +1,15 @@
+
+.header, .content
+{
+    padding: 10px;
+    text-align: center;
+    background-color: #e8e8e8;
+    color: black;
+    border: 1px solid black;
+}
+
+.content  { padding: 50px; }
+
+#panel1 { display: none; }
+#panel2 { display: block; }
+#panel3 { display: none; }

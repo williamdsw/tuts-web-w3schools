@@ -1,0 +1,9 @@
+
+div, h3, p, form, header, footer, section, span, a , img
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+ul { list-style: none outside none; }
+li  { display: inline; }

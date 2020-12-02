@@ -1,0 +1,35 @@
+
+/* pseudo-elementos = "::" */
+
+div
+{
+    margin: 1em;
+    padding: 1em;
+}
+
+
+/* "::first-letter" = Primeira letra do texto */
+p::first-letter
+{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* "::first-line" = Primeira linha do texto */
+p::first-line
+{
+    color: red;
+}
+
+/* "::after" = Conteudo no final do elemento */
+p::after
+{
+    content: '\"'
+}
+
+/* "::selection" = Quando o usuario seleciona o texto */
+p::selection
+{
+    background-color: aquamarine;
+    color: black;
+}

@@ -1,0 +1,27 @@
+
+div
+{
+    margin: 1em;
+    padding: 1em;
+}
+
+.tooltip
+{
+    display: none;
+    padding: 1em;
+    background-color: rgb(191, 191, 250);
+    color: black;
+}
+
+/* ":hover" = Quando o mouse esta sobre o elemento */
+div:hover .tooltip
+{
+    display: block;
+}
+
+/* ":first-child" = O primeiro elemento encontrado */
+.div-links a:first-child
+{
+    color: red;
+    font-size: 30px;
+}

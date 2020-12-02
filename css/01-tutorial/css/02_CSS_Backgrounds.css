@@ -1,0 +1,38 @@
+
+/* "background-color" = Cor de fundo */
+p { background-color: chocolate; color: white; }
+
+/* "background-image" = url da imagem de fundo */
+.box
+{
+    display: inline-block;
+    width: 20em;
+    height: 20em;
+    border: 1px solid black;
+    margin: 2px;
+    background-image: url('../images/paper.jpg');
+    background-size: 10em;
+}
+
+/* "background-repeat" = Indica se a imagem vai repetir e em qual direcao sera */
+#boxRepeatX { background-repeat: repeat-x; }
+#boxRepeatY { background-repeat: repeat-y; }
+#boxNoRepeat { background-repeat: no-repeat; }
+
+/* "background-position" = Indica as posicoes da imagem de fundo */
+#boxPosition
+{
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+/* "background-attachment" = Indica a interacao da imagem com scroll do mouse */
+#boxFixed
+{
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: local;
+}
+
+/* "background" = Propriedade mais curta que engloba os background- acima */
+#boxShorthand { background: #000000 url('../images/paper.jpg') no-repeat right top; }

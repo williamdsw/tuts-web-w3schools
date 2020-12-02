@@ -1,0 +1,16 @@
+
+.box-1
+{
+    width: 500px;
+    padding: 1em;
+    margin: 1em auto;
+    border: 2px solid green;
+}
+
+.box-2
+{
+    max-width: 500px;
+    padding: 1em;
+    margin: 1em auto;
+    border: 2px solid green;
+}

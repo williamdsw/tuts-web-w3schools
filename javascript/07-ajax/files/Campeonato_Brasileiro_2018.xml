@@ -1,0 +1,47 @@
+<campeonato_brasileiro>
+    <equipe>
+        <posicao>1</posicao>
+        <nome>Palmeiras</nome>
+        <pontuacao>80</pontuacao>
+        <jogos>38</jogos>
+        <vitorias>23</vitorias>
+        <empates>11</empates>
+        <derrotas>4</derrotas>
+    </equipe>
+    <equipe>
+        <posicao>2</posicao>
+        <nome>Flamengo</nome>
+        <pontuacao>72</pontuacao>
+        <jogos>38</jogos>
+        <vitorias>21</vitorias>
+        <empates>9</empates>
+        <derrotas>8</derrotas>
+    </equipe>
+    <equipe>
+        <posicao>3</posicao>
+        <nome>Internacional</nome>
+        <pontuacao>69</pontuacao>
+        <jogos>38</jogos>
+        <vitorias>19</vitorias>
+        <empates>12</empates>
+        <derrotas>7</derrotas>
+    </equipe>
+    <equipe>
+        <posicao>4</posicao>
+        <nome>Grêmio</nome>
+        <pontuacao>66</pontuacao>
+        <jogos>38</jogos>
+        <vitorias>18</vitorias>
+        <empates>12</empates>
+        <derrotas>8</derrotas>
+    </equipe>
+    <equipe>
+        <posicao>5</posicao>
+        <nome>São Paulo</nome>
+        <pontuacao>63</pontuacao>
+        <jogos>38</jogos>
+        <vitorias>16</vitorias>
+        <empates>15</empates>
+        <derrotas>7</derrotas>
+    </equipe>
+</campeonato_brasileiro>

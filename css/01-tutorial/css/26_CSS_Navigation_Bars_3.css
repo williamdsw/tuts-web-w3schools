@@ -1,0 +1,41 @@
+
+/* CRIANDO BARRA DE MENU HORIZONTAL */
+/* "segredos" = overflow, float, display:block para lista (links) */
+
+ul.horizontal-bar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal-bar li
+{
+    float:left;
+}
+
+ul.horizontal-bar li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;    
+}
+
+ul.horizontal-bar li a:hover:not(.active)
+{
+    background-color: #111;
+}
+
+.active
+{
+    background-color: #a91c1c;
+}
+
+ul.bordered li 
+{
+    border-right: 1px solid white;
+}

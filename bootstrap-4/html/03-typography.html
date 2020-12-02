@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../libs/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+
+        <!-- JS -->
+        <script type="text/javascript" src="../libs/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../libs/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+
+        <title> Document </title>
+    </head>
+    <body>
+        <!-- Estilo dos headers em Bootstrap -->        
+        <div class="container">
+            <h1> Primeiro header (2.5rem ~ 40px) </h1>
+            <h2> Segundo header (2rem ~ 32px) </h2>
+            <h3> Terceiro header (1.75rem ~ 28px) </h3>
+            <h4> Quarto header (1.5rem ~ 24px) </h4>
+            <h5> Quinto header (1.25rem ~ 20px) </h5>
+            <h6> Sexto header (1em ~ 16px) </h6>
+        </div>
+
+        <br>
+
+        <!-- Estilo de headers peersonalizados (display) -->
+        <div class="container">
+            <h1 class="display-1"> Primeira classe "Display 1" </h1>
+            <h1 class="display-2"> Primeira classe "Display 2" </h1>
+            <h1 class="display-3"> Primeira classe "Display 3" </h1>
+            <h1 class="display-4"> Primeira classe "Display 4" </h1>
+        </div>
+
+        <br>
+
+        <!-- "<small>" = Utilizado para criar um texto suave nos cabecalhos h1 - h6 -->        
+        <div class="container">
+            <h1> Primeiro header com <small>texto secundário </small></h1>
+            <h2> Segundo header com <small>texto secundário </small></h2>
+            <h3> Terceiro header com <small>texto secundário </small></h3>
+            <h4> Quarto header com <small>texto secundário </small></h4>
+            <h5> Quinto header com <small>texto secundário </small></h5>
+            <h6> Sexto header com <small>texto secundário </small></h6>
+        </div>
+
+        <br>
+
+        <!-- <mark> = Utilizado para criar um texto realcado -->
+        <div class="container">
+            <p> Utilize a tag "mark" para <mark>realçar / destacar</mark> uma palavra ou texto </p>
+        </div>
+
+        <br>
+
+        <!-- <abbr> = Serve para abreviar uma palavra -->
+        <div class="container">
+            <p> Torço para o <abbr title="São Paulo Futebol Clube">SPFC</abbr> </p>
+        </div>
+
+        <br>
+
+        <!-- "blockquote" = Classe que serve para citacoes de outras fontes -->
+        <div class="container">
+            <blockquote class="blockquote">
+                <p> Saber não é suficiente, devemos aplicar o conhecimento. <br>
+                    Estar disposto não é suficiente, é preciso mover-se. </p>
+                <footer class="blockquote-footer">Bruce Lee</footer>
+            </blockquote>
+        </div>
+
+        <br>
+
+        <!-- "dl" = Serve para criar uma lista de descricao. 
+          -- "dt" = E o "header" dessa lista 
+          -- "dd" = E a "descricao" dessa lista -->
+        <div class="container">
+            <p> Exemplo de dl, dt, dd </p>
+            <dl>
+                <!-- Exemplo #1 -->
+                <dt> Header da descrição </dt>
+                <dd> Dado da descrição </dd>
+
+                <!-- Exemplo #2 -->
+                <dt> Java</dt>
+                <dd> Mantida pela Oracle </dd>
+
+                <!-- Exemplo #3 -->
+                <dt> C# </dt>
+                <dd> Mantida pela Microsoft </dd>
+            </dl>
+        </div>
+
+        <br>
+
+        <!-- "code" = tag para representar uma linha de codigo -->
+        <div class="container">
+            <p> Exemplo de código Java: </p>
+
+            <div>
+                <code>
+                    package classes; <br><br>
+
+                    import MyClass1; <br><br>
+
+                    public class MyClass2 extends MyClass1 <br>
+                    { <br> &nbsp;&nbsp;&nbsp;
+                        public static void main (String[] args) <br> &nbsp;&nbsp;&nbsp;
+                        { <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            System.out.println ("Hello World!"); <br> &nbsp;&nbsp;&nbsp;
+                        } <br> 
+                    } <br>
+                </code>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- "kbd" = Representa teclas do teclado -->
+        <div class="container">
+            <p> Use as teclas <kbd>ctrl + p</kbd> para abrir a tela de impressão </p>
+        </div>
+    </body>
+</html>

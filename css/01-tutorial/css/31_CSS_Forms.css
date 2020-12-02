@@ -1,0 +1,122 @@
+
+/* ESTILIZANDO FORMS */
+
+.box 
+{
+    padding: 1em;
+    margin: 1em;
+}
+
+/* "width: 100%" = Faz o input ocupar 100% do tamanho */
+.input-large
+{
+    width: 100%;
+}
+
+/* "padding" = Adiciona o espacamento interno
+ * "margin" = Adiciona margem entre o input e seu elemento pai
+ * "box-sizing: border-box" = Permite que o padding / margin facam parte do width */
+.input-padded
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* "border" = Adiciona borda ao input
+ * "border-radius" = Define arredondamento da borda */
+.input-bordered
+{
+    border: 1px dashed blue;
+    border-radius: 5px;
+}
+
+/* "border: none" = Remove a borda
+ * "border-bottom" = Define a borda inferior */
+.input-bordered-bottom
+{
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+.input-colored
+{
+    background-color: darkcyan;
+    color: white;
+}
+
+/* "outline: none" = Remove a "borda" que aparece quando da focus no input */
+.input-focused:focus
+{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+.input-focused-bordered:focus
+{
+    outline: none;
+    border: 2px dashed blue;
+}
+
+/* propriedade "background" definindo um icone no input */
+.input-with-icon
+{
+    background-color: white;
+    background-image: url("../images/search_icon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+/* "transition" = Define uma animacao para o input
+ * "width" = Propriedade que deseja mudar
+ * "0.4s" = Tempo da animacao
+ * "ease-in-out" = Estilo da animacao */
+.input-animated
+{
+    width: 10%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.input-animated:focus
+{
+    width: 100%;
+}
+
+/* "resize: none" = Define que o textarea nao sera redimensionado */
+.my-textarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    border-radius: 3px;
+    background-color: purple;
+    color: white;
+    resize: none;
+}
+
+.my-select
+{
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
+
+.my-button
+{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

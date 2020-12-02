@@ -1,0 +1,27 @@
+
+.box  
+{ 
+    display: inline-block;
+    margin: 1em; 
+    padding: 1em; 
+}
+
+/* "list-style-type" = Define tipo da lista */
+.circle { list-style-type: circle; }
+.square { list-style-type: square; }
+.upper-roman { list-style-type: upper-roman; }
+.lower-alpha { list-style-type: lower-alpha; }
+
+/* "list-style-image" = Define imagem da lista */
+.list-image { list-style-image: url('../images/sqpurple.gif'); }
+
+/* Exemplo de lista sem tipo (necessario tirar margin / padding */
+.list-clean
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* "list-style" = Forma mais simplificada */
+.list-shortcut { list-style: none outside url('../images/sqpurple.gif'); }

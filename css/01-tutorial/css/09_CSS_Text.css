@@ -1,0 +1,51 @@
+
+.box 
+{ 
+    display: inline-block;
+    width: 320px;
+    height: 100px;
+    padding: 1em; 
+    margin: 5px; 
+    background-color: gray;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* "color" = Define cor do texto */
+#boxTextColor { color: gold; }
+
+/* "text-align" = Define alinhamento do texto */
+#boxTextAlignLeft { text-align: left; }
+#boxTextAlignCenter { text-align: center; }
+#boxTextAlignRight { text-align: right; }
+#boxTextAlignJustify { text-align: justify; }
+
+/* "text-decoration" = Define "decoracao" do texto (sublinhado etc) */
+#boxTextDecorationNone a { text-decoration: none; }
+#boxTextDecorationOverline { text-decoration: overline; }
+#boxTextDecorationLineThrough { text-decoration: line-through; }
+#boxTextDecorationUnderline { text-decoration: underline; }
+
+/* "text-transform" = Define a transformacao do texto (Maiusculo, Minusculo etc) */
+#boxTextTransformUppercase { text-transform: uppercase; }
+#boxTextTransformLowercase { text-transform: lowercase; }
+#boxTextTransformCapitalize { text-transform: capitalize; }
+
+/* "text-indent" = Define tamanho do espacamento da primeira linha antes da primeira palavra */
+#boxTextIndent { text-indent: 50px; }
+
+/* "letter-spacing" = Define espacamento entre as letras */
+#boxLetterSpacing { letter-spacing: 5px; }
+
+/* "line-height" = Define altura das linhas */
+#boxLineHeight { display:block; line-height: 1.2; }
+
+/* "direction" = Define a direcao que sera escrita o conteudo */
+#boxDirectionRTL { direction: rtl; }
+#boxDirectionLTR { direction: ltr; }
+
+/* "word-spacing" = Define espacamento entre as palavras */
+#boxWordSpacing { word-spacing: 10px; }
+
+/* "text-shadow" = define sombra do texto */
+#boxTextShadow { text-shadow: 2px 2px black; }

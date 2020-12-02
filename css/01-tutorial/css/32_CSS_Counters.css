@@ -1,0 +1,21 @@
+
+/* UTILIZANDO COUNTERS */
+
+/* "counter-reset" = Reseta o counter */
+body
+{
+    counter-reset: section;
+}
+
+/* "counter-increment: section" = Indica que sera incrementado o contador */
+input
+{
+    margin: 0 1em;
+    counter-increment: section;
+}
+
+/* "conter(section)" = Retorna o valor do contador */
+span::before
+{
+    content: counter(section);
+}

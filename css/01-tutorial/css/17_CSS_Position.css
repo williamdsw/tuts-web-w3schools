@@ -1,0 +1,95 @@
+
+div
+{
+    margin: 1em;
+    padding: 1em;
+}
+
+/* "position: static" = Valor default de todos elementos, posicao estatica (nao e possivel utilizar top, right, bottom, left) */
+div.static 
+{
+    position: static;
+    border: 1px solid red;
+}
+
+/* "position: relative" = Define posicao relativa com valores de top/bottom e left/right */
+div.relative
+{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    border: 2px solid blue;
+}
+
+/* "position: fixed" = Define posicao fixa do elemento, sendo que ele continuara la mesmo com scroll */
+div.fixed
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 3px solid green;
+}
+
+/* "absolute" = Define posicao absoluta de um elemento filho, de acordo com top/bottom e left/right */
+#father { height: 150px; }
+
+div.absolute
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+/* Exemplo de cartas */
+.card
+{
+    width: 50px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* "z-index" = Define index do elemento */
+#card2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#card3
+{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 2;
+}
+
+#card4
+{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 3;
+}
+
+#card5
+{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 4;
+}
+
+#card6
+{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    z-index: 5;
+}

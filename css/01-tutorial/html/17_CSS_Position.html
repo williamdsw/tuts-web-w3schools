@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title> Position CSS </title>
+
+        <link rel="stylesheet" href="../css/17_CSS_Position.css">
+
+    </head>
+
+    <body>
+
+        <!-- Exemplos -->
+
+        <!-- position: static -->
+        <div class="static"> Essa div tem a posição estática (position: static) </div>
+
+        <!-- position: relative -->
+        <div class="relative"> Essa div tem a posição relativa (position: relative) </div>
+
+        <!-- position: fixed -->
+        <div class="fixed"> Essa div tem a posição fixa (position: fixed) </div>
+
+        <!-- position: absolute -->
+        <div id="father" class="relative"> 
+            Essa div tem a posição relativa (position: relative) 
+
+            <div class="absolute"> Essa div tem posição absoluta (position: absolute) </div>
+        </div>
+
+        <!-- Exemplo de position: absolute com z-index -->
+        <div style="position: relative">
+            <div id="card2" class="card">  </div>
+            <div id="card3" class="card">  </div>
+            <div id="card4" class="card">  </div>
+            <div id="card5" class="card">  </div>
+            <div id="card6" class="card">  </div>
+        </div>
+
+    </body>
+
+</html>

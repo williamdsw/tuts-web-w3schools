@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JS Forms</title>
+        
+        <!-- Importacoes js -->
+        <script type="text/javascript" src="../js/01_JS_Forms.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Primeiro exemplo de form -->
+        <fieldset>
+            <legend> Form com validação no onsubmit </legend>
+
+            <form name="my_form" onsubmit="return PrimeiraValidacao ();" action="#" method="POST">
+
+                <!-- label -->
+                <label>Nome:</label>
+
+                <!-- input -->
+                <input type="text" name="txt_name" value="" />
+
+                 <!-- button -->
+                <button type="submit">Enviar</button>
+            </form>
+        </fieldset>
+
+
+        <br/>
+
+
+        <!-- Segundo exemplo sem form -->
+        <fieldset>
+            <legend> Validação sem form e no input </legend>
+
+            <p>Digite um valor entre 1 e 10:</p>
+
+            <!-- input -->
+            <input type="text" name="txt_number" value="" />
+
+            <!-- button -->
+            <button type="button" onclick=" ValidacaoInput (); ">Enviar</button>
+
+            <!-- mensagem de retorno -->
+            <p id="p_retorno"></p>
+        </fieldset>
+
+
+        <br/>
+
+
+        <!-- Terceiro exemplo de form com validacao HTML5 -->
+        <fieldset>
+            <legend> Form com required </legend>
+
+            <form name="other_form" action="#" method="POST">
+
+                <!-- label -->
+                <label>Nome:</label>
+
+                <!-- input -->
+                <!-- "required" = deixa campo obrigatorio no form -->
+                <input type="text" name="txt_other_name" value="" required />
+
+                    <!-- button -->
+                <button type="submit">Enviar</button>
+            </form>
+        </fieldset>
+    
+    
+        <!-- Validacoes css ... :propriedade -->
+
+
+    </body>
+
+</html>

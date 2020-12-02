@@ -1,0 +1,36 @@
+
+div  
+{ 
+    padding: 1em; 
+    margin: 1em; 
+    background-color: rgb(102, 102, 180); 
+    color: white; 
+}
+
+/* 1º = Elemento apos elemento */
+div p
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 2º = ">" indica elementos filhos */
+div > h5
+{
+    color: yellow;
+    font-size: larger;
+}
+
+/* 3º = "+" primeira ocorrencia do elemento depois do primeiro seletor (nao filho) */
+div + a
+{
+    text-decoration: none;
+    color: greenyellow;
+    font-style: italic;
+}
+
+/* 4º = "~" todas ocorrencias do elemento depois do primeiro seletor (nao filho) */
+div ~ p
+{
+    color: red;
+}

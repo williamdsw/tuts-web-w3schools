@@ -1,0 +1,24 @@
+
+.box
+{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    padding: 1em;
+    background-color: powderblue;
+}
+
+/* "overflow" = Define como o elemento vai exibir o texto caso esse ultrapasse seu width / height */
+
+/* "overflow: visible" = Valor default, o texto ira "quebrar" o elemento */
+.visible { overflow: visible; }
+
+/* "overflow: hidden" = Parte o texto que ultrapassar o width / height ira nao sera mostrado */
+.hidden { overflow: hidden; }
+
+/* "overflow: scroll" = Adiciona barras vertical e horizontal por padrao */
+.scroll { overflow: scroll; }
+
+/* "overflow: auto" = Adiciona barras automaticamente de acordo com tamanho do conteudo */
+.auto { overflow: auto; }

@@ -1,0 +1,14 @@
+
+/* "background-color" = Cor de fundo */
+h3 { background-color: aqua; }
+
+/* "color" = Cor do texto */
+#meuParagrafo { color: red; }
+
+/* "border-color" = Cor da borda */
+.caixa
+{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: cadetblue;
+}

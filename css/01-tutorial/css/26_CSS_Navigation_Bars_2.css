@@ -1,0 +1,46 @@
+
+body { font-family: cursive; }
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* CRIA BARRA DE MENU VERTICAL FIXA */
+/* "truques" = height:100%; position:fixed; overflow:auto; */
+ul.vertical-bar-sticky
+{
+    width: 20%;
+    height: 100%;
+    background-color: #34235d;
+    position: fixed;
+    overflow: auto;
+}
+
+ul.vertical-bar-sticky li, ul.vertical-bar-sticky a
+{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.vertical-bar-sticky li.active, ul.vertical-bar-sticky li.active a
+{
+    background-color: #b8a0f0;
+    color: black;
+}
+
+ul.vertical-bar-sticky li:hover:not(.active)
+{
+    background-color: #6240b3;
+}
+
+.lyrics
+{
+    height: 100%;
+    margin-left: 25%;
+    padding: 1px 16px;
+}

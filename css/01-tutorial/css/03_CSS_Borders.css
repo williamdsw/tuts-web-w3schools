@@ -1,0 +1,62 @@
+
+.box { padding: 1em; margin: 1em; }
+
+/* "border-style" = Define 1 ate 4 estilos da borda */
+.dotted { border-style: dotted; }
+.dashed { border-style: dashed; }
+.solid { border-style: solid; }
+.double { border-style: double; }
+.groove { border-style: groove; }
+.ridge { border-style: ridge; }
+.inset { border-style: inset; }
+.outset { border-style: outset; }
+.none  { border-style: none; }
+.hidden { border-style: hidden; }
+.mix { border-style: dashed dotted solid groove; }
+
+/* "border-width" = Define de 1 ate 4 valores para tamanho da borda */
+#boxBorderWidt { border-width: 5px; border-style: solid; }
+#otherBoxBorderWidth { border-width: 4px 3px 2px 1px; border-style: solid; }
+
+/* "border-color" = Define de 1 ate 4 cores para cada lado da borda */
+#boxBorderColor { border-style: solid; border-color: red; }
+#otherBoxBorderColor { border-style: solid; border-color: red green blue gray; }
+
+
+/* 
+ * "border-top-style" = Estilo da borda superior
+ * "border-right-style" = Estilo da borda direita
+ * "border-bottom-style" = Estilo da borda inferior
+ * "border-left-style" = Estilo da borda esquerda
+ */
+#boxDifferentBorders
+{
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    /* border-style: dashed solid; */
+}
+
+/* "border" = Define propriedades da borda da forma simplificada */
+#boxShorthand  { border: 1em dotted blue; }
+
+#boxBorderLeft
+{
+    background-color: rgb(143, 143, 143);
+    color: white;
+    border-left: 10px solid rgb(61, 61, 61);
+}
+
+#boxBorderTop
+{
+    background-color: rgb(182, 0, 0);
+    color: white;
+    border-top: 10px solid rgb(70, 0, 0);
+}
+
+/* "border-radius" = Define o raio das pontas da borda */
+#boxRadiusOne { border: 5px solid blue; border-radius: 1px; }
+#boxRadiusTwo { border: 5px solid blue; border-radius: 5px; }
+#boxRadiusThree { border: 5px solid blue; border-radius: 10px; }
+#boxRadiusFour { border: 5px solid blue; border-radius: 15px; }

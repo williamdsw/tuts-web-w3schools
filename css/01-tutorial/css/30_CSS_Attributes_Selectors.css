@@ -1,0 +1,44 @@
+
+/* UTILIZANDO SELECTORES DE ATRIBUTOS */
+
+a, input
+{
+    display: block;
+    margin: 10px;
+}
+
+/* sintaxe: elemento[atributo] ou elemento[atributo="valor"] */
+
+/* Afeta todos os links que contem o target="_blank" */
+a[target="_blank"]
+{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+/* Afeta todos os links onde o "title" contem (~=) a palavra "segundo"  */
+a[title~="segundo"]
+{
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Afeta todos os links onde o "class" começa (|=) com "other" */
+a[class|="other"]
+{
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+/* Afeta todos os inputs onde "type" são "button" */
+input[type="button"]
+{
+    width: 100px;
+    height: 32px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title> Combinators CSS </title>
+
+        <link rel="stylesheet" href="../css/22_CSS_Combinators.css">
+
+    </head>
+
+    <body>
+
+        <!-- "element" after "element" -->
+        <div>
+            <p> Parágrafo 1 </p>
+            <p> Parágrafo 2 </p>
+            <p> Parágrafo 3 </p>
+
+            Texto fora do parágrafo
+        </div>
+
+        <!-- ">" = children -->
+        <div>
+            <h3> Header h3 </h3>
+            <h3> Header h3 </h3>
+            <h3> Header h3 </h3>
+            <h4> Header h4 </h4>
+            <h5> Header h5 </h5>
+        </div>
+
+        <!-- "+" = Primeiro elemento depois de outro elemento (nao estando dentro) -->
+        <a href="#"> Link 1 </a>
+        <a href="#"> Link 2 </a>
+        <a href="#"> Link 3 </a>
+
+        <!-- "~" = Elementos depois de outro elemento (nao estando dentro) -->
+        <div> Contéudo qualquer </div>
+        <p> Parágrafo depois da DIV </p>
+        <p> Parágrafo depois da DIV </p>
+
+    </body>
+
+</html>

@@ -1,0 +1,17 @@
+
+.box 
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border:  1px solid black;
+    box-shadow: 4px 4px black;
+    margin: 10px;
+}
+
+.box-red { background-color: red; }
+.box-blue { background-color: blue; }
+.box-green { background-color: green; }
+.box-black { background-color: black; }
+.box-yellow { background-color: yellow; }
+.box-pink { background-color: pink; }

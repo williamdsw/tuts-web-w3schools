@@ -1,0 +1,29 @@
+
+.box { margin: 1em; border: 2px solid lightcoral; }
+
+/* "padding" = Define unico valor para espacamento interior do elemento */
+#boxPadding { padding: 5px; }
+
+/* "padding-top" = Define espacamento superior interior do elemento */
+#boxPaddingTop { padding-top: 10%; }
+
+/* "padding-right" = Define espacamento a direita interior do elemento */
+#boxPaddingRight { padding-right: 1em; }
+
+/* "padding-bottom" = Define espacamento inferior interior do elemento */
+#boxPaddingBottom { padding-bottom: 10px; }
+
+/* "padding-left" = Define espacamento a esquerda interior do elemento */
+#boxPaddingLeft { padding-left: 50%; }
+
+/* "padding" = Define quatro valores de espacamento interior do elemento */
+#boxPaddingAll { padding: 20px 15px 10px 5px; }
+
+/* "padding" = Define unico valor para espacamento interior do elemento
+   "box-sizing" = Define comportamento do width / height */
+#boxPaddingWidth 
+{ 
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}

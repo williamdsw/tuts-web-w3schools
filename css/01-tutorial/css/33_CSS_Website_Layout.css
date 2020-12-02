@@ -1,0 +1,104 @@
+
+/* IMPLEMENTANDO WEB LAYOUT */
+
+/* Tira margin default do body */
+body { margin: 0; }
+
+/* Define box-sizing de todos elementos */
+* { box-sizing: border-box; }
+
+
+/* Cabecalho */
+header
+{
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Barra de menu */
+.topnav
+{
+    overflow: hidden;
+    background-color: rgb(48, 48, 48);
+}
+
+.topnav a
+{
+    display: block;
+    float: left;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover
+{
+    background-color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+
+
+/* linha */
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* colunas iguais */
+.column 
+{
+    float: left;
+    width: 33.33%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .column
+    {
+        width: 100%;
+    }
+}
+
+
+/* colunas diferentes */
+.unequal-column
+{
+    float: left;
+    padding: 10px;
+}
+
+.unequal-column.side
+{
+    width: 25%;
+}
+
+.unequal-column.middle
+{
+    width: 50%;
+}
+
+
+/* rodape */
+footer
+{
+    background-color: chartreuse;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px)
+{
+    .unequal-column.side, .unequal-column.middle
+    {
+        width: 100%;
+    }
+}
+
